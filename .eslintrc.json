@@ -29,6 +29,7 @@
         "custom": "ignore",
         "exceptions": [""]
       }
-    ]
+    ],
+    "react/react-in-jsx-scope": "off"
   }
 }
