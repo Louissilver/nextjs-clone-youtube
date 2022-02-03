@@ -58,7 +58,7 @@ const primaryMenu = [
   },
 ];
 
-const secondaryManu = [
+const secondaryMenu = [
   { id: 1, label: 'Biblioteca', icon: VideoLibrary },
   { id: 2, label: 'Histórico', icon: History },
 ];
@@ -96,7 +96,7 @@ function NavBar() {
       </List>
       <Divider />
       <List>
-        {secondaryManu.map((item) => {
+        {secondaryMenu.map((item) => {
           const Icon = item.icon;
           return (
             <ListItem
